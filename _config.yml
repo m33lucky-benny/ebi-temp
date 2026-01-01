@@ -22,11 +22,13 @@ author: ebiyaSG
 navbar-links:
   About Me: "about"
   Contact Us: "contact"
+  Author's home: "https://consultant.ebiya.sg"
+
 
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
-   Author's home: "https://consultant.ebiya.sg"
+  # Author's home: "https://consultant.ebiya.sg"
 
 ################
 # --- Logo --- #
