@@ -1,5 +1,247 @@
 ---
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+## layout: page
+title: Game Credits
+subtitle: Fast, secure, and instant credit delivery for all your gaming needs
 ---
+<style>
+    .container {
+        max-width: 1400px !important;
+        width: 95% !important;
+        margin: 0 auto !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .game-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0 3rem 0;
+        width: 100%;
+    }
+
+    .game-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .game-thumbnail {
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+    }
+
+    .game-info {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .game-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    .game-description {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+        flex: 1;
+    }
+
+    .game-actions {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+    }
+
+    .buy-btn {
+        padding: 0.75rem 2rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
+        font-size: 1rem;
+    }
+
+    .buy-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .section-intro {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #555;
+    }
+
+    @media (min-width: 1400px) {
+        .game-gallery {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        .game-gallery {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .container {
+            width: 90% !important;
+        }
+        .game-gallery {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .container {
+            width: 100% !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        .game-gallery {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+</style>
+
+<div class="section-intro">
+    <p>Choose your game and top up credits instantly. Safe, fast, and reliable service.</p>
+</div>
+
+<div class="game-gallery">
+    <div class="game-card">
+        <div class="game-thumbnail">🎯</div>
+        <div class="game-info">
+            <div class="game-title">Mobile Legends</div>
+            <div class="game-description">Top up diamonds instantly and unlock exclusive skins and heroes</div>
+            <div class="game-actions">
+                <button class="buy-btn">Top Up</button>
+            </div>
+        </div>
+    </div>
+
+<div class="game-card">
+    <div class="game-thumbnail">🔫</div>
+    <div class="game-info">
+        <div class="game-title">Free Fire</div>
+        <div class="game-description">Get your diamonds now for characters, skins, and more</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">⚔️</div>
+    <div class="game-info">
+        <div class="game-title">PUBG Mobile</div>
+        <div class="game-description">UC purchase available for Royale Pass and premium items</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">🏰</div>
+    <div class="game-info">
+        <div class="game-title">Genshin Impact</div>
+        <div class="game-description">Genesis Crystals for wishes and premium content</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">🎪</div>
+    <div class="game-info">
+        <div class="game-title">Roblox</div>
+        <div class="game-description">Buy Robux instantly for avatar items and game passes</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">🌟</div>
+    <div class="game-info">
+        <div class="game-title">Valorant</div>
+        <div class="game-description">VP and Radianite for weapon skins and battle pass</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">🎲</div>
+    <div class="game-info">
+        <div class="game-title">League of Legends</div>
+        <div class="game-description">Riot Points available for champions and skins</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+<div class="game-card">
+    <div class="game-thumbnail">⚡</div>
+    <div class="game-info">
+        <div class="game-title">Clash of Clans</div>
+        <div class="game-description">Gems and passes for faster progression</div>
+        <div class="game-actions">
+            <button class="buy-btn">Top Up</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+    document.querySelectorAll('.buy-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const gameTitle = e.target.closest('.game-card').querySelector('.game-title').textContent;
+            alert(`Top-up for ${gameTitle} - Payment page would open here`);
+        });
+    });
+
+    document.querySelectorAll('.game-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const gameTitle = card.querySelector('.game-title').textContent;
+            alert(`Viewing ${gameTitle} - Details page would open here`);
+        });
+    });
+</script>
