@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: KieronPlay
+title: ConsultantDev
 
 # Your name to show in the footer
 author: ebiyaSG
@@ -21,6 +21,7 @@ author: ebiyaSG
 
 navbar-links:
   About Me: "about"
+  Contact Us: "contact"
 
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -50,7 +51,7 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "kieronplay@gmail.com"
+  email: "bennyyuen@consultant.com"
   rss: true # remove this line if you don't want to show an RSS link at the bottom
   instagram: key.play.pay
   whatsapp: 65xxxxxxxxx
